@@ -1,2 +1,3 @@
 import configureStore from "./store";
-export { configureStore }
+import { produceReducer, populateProduce } from "./produce";
+export { configureStore, produceReducer, populateProduce }
